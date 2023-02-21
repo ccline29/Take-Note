@@ -1,21 +1,16 @@
 {
-  "name": "take-note",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ccline29/Take-Note.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ccline29/Take-Note/issues"
-  },
-  "homepage": "https://github.com/ccline29/Take-Note#readme"
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuidv4": "^6.2.13"
+  }
 }
+
